@@ -1,0 +1,27 @@
+{
+  "name": "laura",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"node index.js\" \"cd public/admin && npm start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grabeqx/Laura.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grabeqx/Laura/issues"
+  },
+  "homepage": "https://github.com/grabeqx/Laura#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.3.11"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
